@@ -1,0 +1,131 @@
+/* General Formatting */
+a {
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(102, 102, 255);
+}
+a.footer {
+    color: #7c7c7c;
+}
+a:hover.menu {
+    color: rgb(102, 102, 255);
+}
+a:hover.footer {
+    color: rgb(102, 102, 255);
+}
+a.index {
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: normal;
+    font-size: .8rem;
+}
+a:hover.index {
+    color: rgb(102, 102, 255);
+}
+header.mymasthead {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+footer {
+    font-size: 1rem;
+    padding-top: .25rem;
+    height: 5rem;
+}
+video {
+    width: 25vw;
+    height: auto;
+}
+/* Class Formatting */
+.imgA {
+    width: 40vw;
+    height: auto;
+}
+.main-content {
+    position: relative;
+    margin-left: 125px;
+    width: 70vw;
+    font-size: .025vw;
+}
+.imgheight {
+    height: auto;
+    width: auto;
+}
+.myh3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 800;
+    line-height: 1.2;
+}
+.alt-subheading {
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.internal-link {
+    color: rgb(219, 217, 217);
+}
+.resume-title {font-size: 1.75rem;}
+.resume-subtitle {
+    color: rgba(255, 255, 255, 0.775);;
+    font-size: 1.1rem; 
+    font-weight: 400;
+}
+.left-menu {
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 0px;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    height: 20px;
+    width: 132px;
+    color: white;
+}
+.setborderam {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    height: auto;
+    width: auto;
+    border: white solid 2px;
+    z-index: 1;
+    color: white;
+}
+.photobox {
+    width: 48.5vw;
+    height: 70vh;
+}
+.left-align {text-align: left;}
+.bold {font-weight: bolder;}
+.resume-sub {font-size: 1.1rem; color: rgb(83, 83, 83);}
+.black {color: black;}
+.margin-top {margin-top: 2rem;}
+.center {text-align: center;}
+.noborder {border: none;}
+.chillcolor {color: #6c757d73;}
+.linkedin-blue {color: rgba(245, 245, 245, 0.726);}
+.margin-bottom {margin-bottom: 0.5rem;}
+.mybg {background-color: #111214;}
+.footer-design {padding-top: .5rem;}
+.index-padding-bottom {padding-bottom: calc(100vh - 75vh);}
+.index-padding-top {padding-top: 5vh;}
+.white {color: white;}
+.faded-white {color: rgba(255, 255, 255, 0.842);}
+.aboutme-margintop {margin-top: -.1rem;}
+.border-bottom {border-bottom: white solid 2px;}
+.inline {display: inline-block;}
+
+/* LinkedIn Connect */
+.linkedin-badge {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 3;
+}

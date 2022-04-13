@@ -1,0 +1,140 @@
+/* Overall */
+body {
+    background-color: #111214;
+    font-family:  "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(102, 102, 255);
+}
+p {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+}
+
+/* Class Formatting */
+.common {
+    position: absolute;
+}
+.header {
+    top: 2.5px;
+    left: 15px;
+    right: 15px;
+    height: 85px;
+    z-index: 2;
+    border-bottom: solid 1px white;
+}
+.mainbody {
+    overflow-y: hidden;
+    top: 105px;
+    left: 15px;
+    bottom: 52.5vh;
+    right: 50.35vw;
+    border: solid 1px #111214;
+    border-bottom: none;
+}
+.description {
+    color: #414141;
+    background-color: #d3d3d3;
+    font-weight: bold;
+    overflow-y: hidden;
+    text-align: justify;
+    font-size: 12px;
+    top: 47.45vh;
+    left: 16px;
+    height: 33px;
+    right: 50.425vw;
+    border: solid 1px #d3d3d3;
+    border-top: none;
+}
+.mainbody2 {
+    overflow-y: hidden;
+    top: 105px;
+    right: 15px;
+    bottom: 52.5vh;
+    left: 50.35vw;
+    border: solid 1px #111214;
+    border-bottom: none;
+}
+.description2 {
+    color: #414141;
+    background-color: #d3d3d3;
+    font-weight: bold;
+    overflow-y: hidden;
+    text-align: justify;
+    font-size: 12px;
+    top: 47.45vh;
+    right: 16px;
+    height: 33px;
+    left: 50.4vw;
+    border: solid 1px #d3d3d3;
+    border-top: none;
+}
+.mainbody3 {
+    overflow-y: hidden;
+    top: 52.5vh;
+    left: 15px;
+    bottom: 81px;
+    right: 50.35vw;
+    border: solid 1px #111214;
+    border-bottom: none;
+}
+.description3 {
+    color: #414141;
+    background-color: #d3d3d3;
+    font-weight: bold;
+    overflow-y: hidden;
+    text-align: justify;
+    font-size: 12px;
+    height: 33px;
+    left: 16px;
+    bottom: 48px;
+    right: 50.4vw;
+    border: solid 1px #d3d3d3;
+    border-top: none;
+}
+.mainbody4 {
+    overflow-y: hidden;
+    top: 52.5vh;
+    right: 15px;
+    bottom: 81px;
+    left: 50.35vw;
+    border: solid 1px #111214;
+    border-bottom: none;
+}
+.description4 {
+    color: #414141;
+    background-color: #d3d3d3;
+    font-weight: bold;
+    overflow-y: hidden;
+    text-align: justify;
+    font-size: 12px;
+    height: 33px;
+    right: 16px;
+    bottom: 48px;
+    left: 50.4vw;
+    border: solid 1px #d3d3d3;
+    border-top: none;
+}
+.footer {
+    background-color: #111214;
+    bottom: 7px;
+    right: 15px;
+    left: 15px;
+    height: 40px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    position: fixed;
+}
+.center {
+    text-align: center;
+}
